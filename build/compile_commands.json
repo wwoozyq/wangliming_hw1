@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/wlm/projects/wangliming_hw1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/wlm/projects/wangliming_hw1/inc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/main.dir/src/algebra.c.o -c /Users/wlm/projects/wangliming_hw1/src/algebra.c",
+  "file": "/Users/wlm/projects/wangliming_hw1/src/algebra.c",
+  "output": "CMakeFiles/main.dir/src/algebra.c.o"
+},
+{
+  "directory": "/Users/wlm/projects/wangliming_hw1/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/wlm/projects/wangliming_hw1/inc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/main.dir/src/main.c.o -c /Users/wlm/projects/wangliming_hw1/src/main.c",
+  "file": "/Users/wlm/projects/wangliming_hw1/src/main.c",
+  "output": "CMakeFiles/main.dir/src/main.c.o"
+}
+]
