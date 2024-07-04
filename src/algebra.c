@@ -140,12 +140,10 @@ int rank_matrix(Matrix a) {
     int rank = (m < n) ? m : n;
 
     for (int row = 0; row < rank; row++) {
-        // 如果当前主对角线元素 a[row][row] 为零，查找下面的非零元素并交换
         if (a.data[row][row] == 0) {
             int reduce = 1;
             for (int k = row + 1; k < m; k++) {
                 if (a.data[k][row] != 0) {
-                    // 交换行
                     for (int j = 0; j < n; j++) {
                         double temp = a.data[row][j];
                         a.data[row][j] = a.data[k][j];
@@ -155,9 +153,7 @@ int rank_matrix(Matrix a) {
                     break;
                 }
             }
-            // 如果找不到非零元素，秩减一，并跳过该列
             if (reduce) break;}
-        // 进行高斯消元，消去当前列下面的所有元素
         for (int r = row + 1; r < m; r++) {
             if (a.data[r][row] != 0) {
                 double mult = a.data[r][row] / a.data[row][row];
